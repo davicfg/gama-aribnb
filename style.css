@@ -13,3 +13,7 @@
 .form-estadia{
   margin-top: 10px;
 }
+
+#sticky-footer {
+  flex-shrink: none;
+}
