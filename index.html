@@ -16,37 +16,64 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="https://github.com/davicfg/gama-aribnb">Github</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <form>
-      <div class="form-row align-items-center">
-        <div class="col-md-4">
-          <label class="sr-only" for="inlineFormInput">Name</label>
-          <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
-        </div>
-        <div class="col-md-4">
-          <label class="sr-only" for="inlineFormInputGroup">Username</label>
-          <div class="input-group mb-2">
-            <div class="input-group-prepend">
-              <div class="input-group-text">@</div>
-            </div>
-            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    <div class="form-row align-items-center form-estadia">
+      <div class="form-group row col-md-5">
+        <div class="col-12">
+          <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
         </div>
       </div>
-    </form>
-
+      <div class="form-group row col-md-5">
+        <div class="col-12">
+          <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary mb-2">Calcular estadias</button>
+    </div>
+  <h2 class="titulo-destaque">Nossas Acomodações</h2>
+  <div class="card-deck">
+    <div class="card">
+      <img class="card-img-top"
+        src="https://a0.muscache.com/im/pictures/e6c4b347-49c7-4840-8c00-df36a2a273da.jpg?aki_policy=x_large"
+        alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+          content. This content is a little bit longer.</p>
+        <p class="card-text font-weight-bold">R$</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top"
+        src="https://a0.muscache.com/im/pictures/4a5326cb-95e4-4220-a4d8-c91f50cf784c.jpg?aki_policy=xx_large"
+        alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text font-weight-bold">R$</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top"
+        src="https://a0.muscache.com/im/pictures/77a102a4-cf65-475e-be60-4d592307ab4a.jpg?aki_policy=xx_large"
+        alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+          content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text font-weight-bold">R$</p>
+      </div>
+    </div>
+  </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
